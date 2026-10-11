@@ -7,11 +7,19 @@
 		"ios": "2.2081"
 	},
 	"id": "rebbant.icons-and-colors-unleashed",
-	"name": "icons-and-colors-unleashed",
+	"name": "Icons and Colors Unleashed",
 	"version": "v1.0.0",
 	"developer": "Rebbant",
-	"description": "",
+	"description": "Different icons and colors for each gamemode!",
 	"dependencies": {
 		"geode.node-ids": ">=v1.23.3"
+	},
+	"settings": {
+		"unlock-all-icons": {
+			"type": "bool",
+			"name": "Unlock all icons",
+			"description": "Allow selecting icons you haven't unlocked yet.",
+			"default": false
+		}
 	}
 }
