@@ -4,8 +4,6 @@ Use different icons and colors for each gamemode, even in dual mode!
 
 Use the new icon in the garage to select different colors and enable / diable glow for every gamemode separately.
 
-![image.png](image.png)
-
 Clicking the selected icon allows you to change the icon for that player and gamemode.
 
 You can even swap players icons and colors with just a click. 
