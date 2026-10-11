@@ -25,7 +25,7 @@ class $modify(GJGarageLayerModify, GJGarageLayer) {
 			this,
 			menu_selector(GJGarageLayerModify::onInterfaceBtn)
 		);
-		interfaceBtn->setID("interfaceBtn");
+		interfaceBtn->setID("icu-interface-btn"_spr);
 
 		auto menu = this->getChildByID("shards-menu");
 		menu->addChild(interfaceBtn);

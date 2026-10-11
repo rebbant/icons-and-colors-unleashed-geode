@@ -25,7 +25,7 @@ protected:
 
     bool customInit() {
         if (!CharacterColorPage::init()) return false;
-        this->setID("ic-color-page");
+        this->setID("icu-color-page"_spr);
         if (!m_buttonMenu) return true;
 
         // Set callback for each color square
@@ -130,6 +130,7 @@ protected:
         auto winSize = CCDirector::get()->getWinSize();
         CCPoint world = { winSize.width / 2 + m_width / 2 + 30.0f, winSize.height * 0.92f };
         swapBtn->setPosition(m_buttonMenu->convertToNodeSpace(world));
+        swapBtn->setID("icu-swap-btn"_spr);
         m_buttonMenu->addChild(swapBtn);
 
         // Draw things
@@ -155,6 +156,7 @@ protected:
                 btn->setTag(player * 100 + static_cast<int>(type));
                 float y = pos.y + (player == 1 ? fRowGap / 2.f : -fRowGap / 2.f);
                 btn->setPosition({ pos.x, y });
+                btn->setID(fmt::format("icu-icon-p{}-t{}-btn"_spr, player, static_cast<int>(type)));
                 m_buttonMenu->addChild(btn);
                 m_iconBtns.push_back(btn);
             }
