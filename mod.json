@@ -10,6 +10,11 @@
 	"name": "Icons and Colors Unleashed",
 	"version": "v1.0.0",
 	"developer": "Rebbant",
+	"tags": [
+		"customization",
+		"gameplay",
+		"enhancement"
+	],
 	"description": "Different icons and colors for each gamemode!",
 	"dependencies": {
 		"geode.node-ids": ">=v1.23.3"
